@@ -1,0 +1,20 @@
+﻿Variável;Descrição
+id; Identificador da música na base do spotify
+artists; Nomes dos artistas
+name; Nome da música
+year; Ano de lançamento
+release_date; Data de lançamento da música, codificada em Ano-Mês-Dia. Entretanto, nem todas as músicas possuem a informação completa, então é possível que apenas só contenha o ano, por exemplo.
+acousticness; Entre 0 e 1, quanto a música é acústica.
+danceability; Entre 0 e 1, quanto a música é dançável.
+duration_ms; Duração em milésimos de segundos.
+energy; Entre 0 e 1, quanto a música é energética.
+explicit; 1 se a música contém letra com conteúdo explícito, 0 caso contrário.
+instrumentalness; Entre 0 e 1, quão instrumental é a música.
+key; Tom da música, mapeado aqui.
+liveness; Entre 0 e 1, quão “Ao vivo” é a música
+loudness; O quanto a música é volumosa. O valor usualmente varia entre -60 e 0, representando a quantidade de decibéis da música.
+mode; 1 se a música é em tom maior, 0 se em tom menor. Popularmente, as músicas em tom maior são consideradas músicas felizes, enquanto as em tom menor são consideradas mais tristes.
+speechiness; Entre 0 e 1, quanto a música é vocalizada/falada.
+tempo; Tempo da música em quantidades de Batidas por Minuto (BPM)
+valence; Entre 0 e 1, descreve a positividade da música, com valores altos para músicas positivas (felizes, alegres, eufóricas, etc) e valores baixos para músicas negativas (tristes, com raiva, etc)
+popularity; Entre 0 e 100, popularidade da música. Neste conjunto, esta é a variável alvo.
